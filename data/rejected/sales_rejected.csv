@@ -1,0 +1,10 @@
+order_id,order_date,customer_id,product_id,quantity,unit_price,city,rejection_reason
+2011,2026-04-27,C026,P104,0.0,150,Bhopal,quantity must be greater than zero
+2021,2026-04-23,C024,P101,-2.0,500,Delhi,quantity must be greater than zero
+2031,2026-05-04,C188,P104,10.0,unknown,Indore,Missing or invalid unit_price
+2041,invalid-date,C063,P104,10.0,500,Delhi,Missing or invalid order_date
+2051,2026-08-05,C125,P102,,750,Pune,Missing or invalid quantity
+2061,2026-10-16,C055,P105,2.0,150,,Missing or invalid city
+2100,2026-09-23,C064,P101,8.0,150,Mumbai,Duplicate order_id
+2100,2026-08-22,C171,P105,3.0,1200,Delhi,Duplicate order_id
+2100,2026-10-14,C157,P105,10.0,300,Delhi,Duplicate order_id
